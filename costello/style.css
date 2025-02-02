@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.logo img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #fbbd6a;
+}
+
+.buttons button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons button:nth-child(1) { background: rgb(102, 0, 0); color: #fff; }
+.buttons button:nth-child(2) { background: rgb(102, 0, 0); color: #fff; }
+.buttons button:nth-child(3) { background: rgb(102, 0, 0); color: #fff; }
+.buttons button:nth-child(4) { background: rgb(102, 0, 0); color: #fff; }
+.buttons button:nth-child(5) { background: rgb(102, 0, 0); color: #fff; }
+
+.buttons button:hover {
+    opacity: 0.8;
+}
+ 
+.buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #1a1a1a;
+    color: white;
+}
+
+.buttons button img {
+    width: 24px; /* Иконка ўлчами */
+    height: 24px;
+    margin-right: 10px; /* Расм ва матн орасидаги масофа */
+}
+
+button span {
+    flex-grow: 1;
+    text-align: center;
+}
